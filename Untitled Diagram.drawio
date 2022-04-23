@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-23T06:19:40.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="rldTiedHYQsrH4qju5w_" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-23T07:28:42.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="3xPhX4DV51BrwiUlMk-v" version="17.4.6" type="github">
   <diagram id="IVtpC77LqaH1NSqqR-B9" name="Page-1">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,6 +27,88 @@
         </mxCell>
         <mxCell id="ZM2xsr5xtvji5Ld87o9B-8" value="Distributed Queues&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="670" as="sourcePoint" />
+            <mxPoint x="1090" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-2" value="User Service(deal with all user actions)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-3" value="Restaurant Service(deals with restaurant actions)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-4" value="Delivery Service(deal with delivery related actions)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ThKUjQk0vaURE4Ku5YZ8-5" target="ThKUjQk0vaURE4Ku5YZ8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-5" value="* User can create/edit/delete their profiles&lt;br&gt;* User can view dishes/restaurants.&lt;br&gt;*User can add to cart.&lt;br&gt;*User can make payments.&lt;br&gt;*User can track delivery.&lt;br&gt;*User can make a complaint.&lt;br&gt;*User can view their order history.&lt;br&gt;* User can share their feedback/ ratings." style="ellipse;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="40" y="930" width="262.5" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ThKUjQk0vaURE4Ku5YZ8-8" target="ThKUjQk0vaURE4Ku5YZ8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-8" value="* Restaurant can add/update a restaurant(add menu/items in the menu)&lt;br&gt;* It can accept and process the order.&lt;br&gt;* It can accept payment.&lt;br&gt;* It will notify the delivery that dish is prepared." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="920" width="270" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.353;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ThKUjQk0vaURE4Ku5YZ8-9" target="ThKUjQk0vaURE4Ku5YZ8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ThKUjQk0vaURE4Ku5YZ8-9" target="ThKUjQk0vaURE4Ku5YZ8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ThKUjQk0vaURE4Ku5YZ8-9" target="ThKUjQk0vaURE4Ku5YZ8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-9" value="Authentication(to distinguish between customer, restaurant, delivery agent)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.002;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ThKUjQk0vaURE4Ku5YZ8-15" target="ThKUjQk0vaURE4Ku5YZ8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.557;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ThKUjQk0vaURE4Ku5YZ8-15" target="ThKUjQk0vaURE4Ku5YZ8-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="1310" />
+              <mxPoint x="880" y="1220" />
+              <mxPoint x="945" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.569;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ThKUjQk0vaURE4Ku5YZ8-15" target="ThKUjQk0vaURE4Ku5YZ8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-15" value="Admin side&lt;br&gt;- Manage the whole order process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1280" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ThKUjQk0vaURE4Ku5YZ8-18" target="ThKUjQk0vaURE4Ku5YZ8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-18" value="* It can update their profile (basically timings, pincode, rating)&lt;br&gt;* It can accept/reject the request to deliver the food.&lt;br&gt;* Track location and deliver the food." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="915" width="260" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.522;entryY=1.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ThKUjQk0vaURE4Ku5YZ8-19" target="ThKUjQk0vaURE4Ku5YZ8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-19" value="1. Show diff restaurants based on rating and location.&lt;br&gt;2. Payment integration.&lt;br&gt;3. Transfer the order to the corresponding restaurant&lt;br&gt;* If success, track the order ( notify the user) and later the delivery agent.&lt;br&gt;* If reject, notify the user.&lt;br&gt;4. Managing the complaint." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="1380" width="500" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-26" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="800" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-27" value="Restaurant&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="810" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-28" value="Delivery agent" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="810" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ThKUjQk0vaURE4Ku5YZ8-34" value="Admin&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1280" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
