@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T16:47:58.373Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" version="17.4.6" etag="vcrEaA1-5LgI4kpCdJdW" type="github"><diagram id="IVtpC77LqaH1NSqqR-B9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-23T06:18:46.671Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="rrzA6pwn-MPsBbMn5U4u" version="17.4.6" type="github">
+  <diagram id="IVtpC77LqaH1NSqqR-B9" name="Page-1">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZM2xsr5xtvji5Ld87o9B-1" value="Food Delivery System&lt;br&gt;(Client UI)&lt;br&gt;(React.js)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZM2xsr5xtvji5Ld87o9B-2" value="Restaurant DB&lt;br&gt;(Mongo DB)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="650" y="110" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZM2xsr5xtvji5Ld87o9B-3" value="client DB&lt;br&gt;(Mongo DB)&lt;br&gt;(order History)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="660" y="270" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZM2xsr5xtvji5Ld87o9B-4" value="Inventory Management" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="50" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZM2xsr5xtvji5Ld87o9B-5" value="Order Delivery Management&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZM2xsr5xtvji5Ld87o9B-6" value="Payment&lt;br&gt;(Cash, Credit , Debit, UPI)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZM2xsr5xtvji5Ld87o9B-7" value="Notification" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="450" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZM2xsr5xtvji5Ld87o9B-8" value="Distributed Queues&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
